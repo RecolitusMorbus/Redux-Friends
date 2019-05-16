@@ -1,11 +1,10 @@
 import React from 'react';
+import { FriendListView } from './views';
 
-function App() {
-  return (
-    <div>
-      Hello, Jello.
-    </div>
-  );
-}
-
-export default App;
+export default class App extends React.Component {
+  render() {
+    return (
+      <FriendListView />
+    );
+  };
+};
